@@ -15,6 +15,7 @@ import type {
 } from '../../types';
 import type { NativeBackgroundSessionClass } from './NativeBackgroundSessionClass.types';
 import type { NativeHeadingWatchHandleClass } from './NativeHeadingWatchHandleClass.types';
+import type { NativeGeofencingHandleClass } from './NativeGeofencingHandleClass.types';
 import type { NativeLocationProviderClass } from './NativeLocationProviderClass.types';
 import type { NativeLocationUpdatesHandleClass } from './NativeLocationUpdatesHandleClass.types';
 import type { NativePositionWatchHandleClass } from './NativePositionWatchHandleClass.types';
@@ -44,4 +45,5 @@ export declare class NativeLocationModuleNextClass extends NativeModule {
   HeadingWatchHandle: typeof NativeHeadingWatchHandleClass;
   LocationUpdatesHandle: typeof NativeLocationUpdatesHandleClass;
   BackgroundSession: typeof NativeBackgroundSessionClass;
+  GeofencingHandle: typeof NativeGeofencingHandleClass;
 }
